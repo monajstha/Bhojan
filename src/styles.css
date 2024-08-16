@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom right, #8b0000, #ff8c00);
+
+  /* background-color: red; */
+  padding: 16px;
+}
+
+#navBar h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 12px;
+}
+
+#navButtonDiv {
+  display: flex;
+  width: "100%";
+  background-color: green;
+  justify-content: flex-end;
+}
+
+#navButtonDiv button {
+  padding: 12px;
+  width: 200px;
+  /* margin: 0px 12px; */
+}
+
+#content {
+  display: flex;
+  /* background-color: yellow; */
+  /* flex-direction: column; */
+  width: "100%";
+  justify-content: center;
+  /* align-items: center; */
+  padding: 24px 48px;
+}
+
+#introDiv {
+  width: 70%;
+  /* background-color: aliceblue; */
+  /* padding: 16px; */
+}
+
+#introDiv p {
+  margin: 12px 24px 0px 0px;
+}
+
+#introImageDiv {
+  width: 10rem;
+  height: 10rem;
+  background: linear-gradient(135deg, #ff9a8b, #ff6a88, #ff99ac);
+  border-radius: 12px;
+}
+
+/* Menu Page */
+#foodCard {
+  display: flex;
+  align-items: start;
+  padding: 12px;
+  border: 1px solid #8b0000;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+#foodImage {
+  height: 70px;
+  width: 70px;
+  border-radius: 12px;
+  /* background-color: violet; */
+  background: linear-gradient(135deg, #ff9a8b, #ff6a88, #ff99ac);
+}
+
+#foodInfo {
+  padding: 16px 16px;
+}
+
+#price {
+  display: flex;
+  margin-top: 4px;
+  justify-content: flex-end;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to bottom right, #8b0000, #ff8c00);
+  color: white;
+}
